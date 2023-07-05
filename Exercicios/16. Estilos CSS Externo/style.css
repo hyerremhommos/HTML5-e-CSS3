@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/*Configurando o arquivo CSS Externo*/
+
+    body {
+        background-color:cornflowerblue;
+        font-family: Arial;
+    }
+
+    h1 {
+        color: white;
+        background-color: brown;
+    }
+
+    h2 {
+    color: orangered 
+    }
+
+    p{
+        text-align: justify;
+        font-size: 20px;
+    }

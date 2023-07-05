@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Formulário Simples</h1>
+    <hr>
+    <form>
+        <label for="campo_nome">Nome:</label>
+        <input id="campo_nome" type="text" placeholder="Digite seu nome aqui" required>
+        <br><br>
+        <label for="campo_senha">Senha:</label>
+        <input id="campo_senha" type="password" placeholder="Digite uma senha" required>
+        <br><br>
+        <label for="campo_email">Email:</label>
+        <input id="campo_email" type="email" placeholder="Digite seu email aqui" required>
+        <br><br>
+        <input type="submit" value="Enviar Formulário">
+        <br><br>
+
+        <h2>Animal de Estimação:</h2>
+        <input id="dog" type="radio" name="animal" value="cachorro">
+        <label for="dog">Cachorro</label>
+        <br><br>
+        <input id="cat" type="radio" name="animal" value="gato">
+        <label for="cat">Gato</label>
+        <br><br>
+        <input id="bird" type="radio" name="animal" value="passarinho">
+        <label for="bird">Passarinho</label>
+        <br><br>
+
+        <h2>O que você tem em casa?</h2>
+        <input id="item01" type="checkbox" name="tv" value="item01">
+        <label for="item01">TV</label>
+        <br><br>
+        <input id="item02" type="checkbox" name="geladeira" value="item02">
+        <label for="item02">Geladeira</label>
+        <br><br>
+        <input id="item03" type="checkbox" name="computador" value="item03">
+        <label for="item03">Computador</label>
+
+        <h2>Escolha uma Cor:</h2>
+        <select name="cores">
+            <option selected disabled>Selecione uma cor</option>
+            <option value="vermelho">Vermelho</option>
+            <option value="azul">Azul</option>
+            <option value="amarelo">Amarelo</option>
+            <option value="verde">Verde</option>
+        </select>
+        <br><br>
+
+        <h2>Digite sua mensagem:</h2>
+        <textarea name="mensagem" id="" cols="55" rows="15" placeholder="Digite aqui sua mensagem"></textarea>
+        <br><br>
+        
+        <button>Clique aqui</button>
+    </form>
+
+</body>
+</html>
