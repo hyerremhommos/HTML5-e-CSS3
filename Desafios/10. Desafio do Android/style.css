@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+/*Plano de Fundo*/
+body{
+    background-color: skyblue;
+    font-family: 'Bebas Neue', sans-serif;;
+    font-size: 15px;
+    margin: 0px;
+}
+
+/*Cabeçalho*/
+header{
+    background-image: linear-gradient(to bottom, #03A63C,#025939);
+    padding: 10px;
+    margin: auto;
+    box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.473);
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+header > p{
+    color: white;
+    text-align: center;
+}
+
+/*Menu*/
+nav > a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+/*Conteúdo Principal*/
+main{
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    width: 850px;
+    border-radius: 2px 2px 20px 20px;
+    font-size: 15px;
+}
+
+p{
+    text-align: justify;
+    text-indent: 25px;
+}
+
+article{
+    text-align: center;
+    padding: 5px;
+}
+
+h2{
+    font-family: 'Android';
+    color: #025939;
+    text-align: left;
+}
+
+h3{
+    font-family: 'Android';
+    color: #026e28;
+    text-align: left;
+}
+
+h4{
+    background-color: #2EDF85;
+    color: white;
+    padding: 8px;
+    border-radius: 10px 10px 1px 1px;
+}
+
+aside{
+    background-color: rgba(135, 207, 235, 0.568);
+    padding: 8px;
+    border-radius: 10px;
+}
+
+aside > ul{
+    list-style: none;
+}
+
+/*Rodapé*/
+footer{
+    background-color: #025939;
+    color: white;
+    padding: 4px;
+    margin: 0px;
+}
+
+footer > p{
+    text-align: center;
+    font-weight: bold;
+    margin: 0px;
+}
+/*Gambiarra que não sei se está certo*/
+footer > p > a:visited{
+    color: white;
+}
+
+p > a{
+    text-decoration: none;
+}
+
+span > a{
+    text-decoration: none;
+    color: #09702d;
+    font-weight: bolder;
+}
+
+#video{
+    background-color: #025939;
+    padding: 20px;
+    
+}
