@@ -76,7 +76,11 @@ body::before{
     /*Alinhar texto ao centro*/
 }
 
-.selecao-de-personagens .personagens .img {
+.lista-de-personagens .personagem{
+    border-bottom: 4px solid #47f4ff;
+}
+
+.lista-de-personagens .personagem .img {
     /*Evitar que as imagens fiquem quebradas*/
     width: 100%;
     height: 100%;
