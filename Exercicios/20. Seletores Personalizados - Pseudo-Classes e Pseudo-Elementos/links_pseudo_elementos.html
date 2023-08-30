@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;;
+        }
+
+        /*Para sites que já foram visitados, ele fica vermelho escuro*/
+        a:visited{
+            color: darkred;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: yellow;
+        }
+
+        /*Depois de todos os links, faça:
+        a::after{
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgrey;
+        }*/
+
+        .destaque{
+            background-color: rgb(255, 140, 140);
+        }
+
+        .destaque::before{
+            content: '=>';
+            font-weight: lighter;
+        }
+
+        .destaque::after{
+            content: '<=';
+            font-weight: lighter;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://themastermindsite.com/" class="destaque">Site do MasterMind</a></li>
+        <li><a href="https://www.google.com.br/">Site da Google</a></li>
+    </ul>
+</body>
+</html>
