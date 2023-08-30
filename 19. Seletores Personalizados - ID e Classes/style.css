@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: darkgreen;
+}
+
+h1#principal{
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+h2{
+    color: rgb(52, 236, 48);
+}
+
+.basico{
+    color: green;
+}
+
+.intermediario{
+    color: yellow;
+}
+
+.avancado{
+    color: red;
+}
+
+.texto{
+    text-align: justify;
+}
+
+.destaque{
+    background-color: purple;
+    text-align: center; /*Hierarquia do class*/
+}

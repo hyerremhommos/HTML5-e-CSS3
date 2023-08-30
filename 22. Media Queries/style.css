@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+h2 {
+    color: white;
+    font-size: 14px;
+}
+
+
+/*Smartphones - 600px para baixo*/
+@media only screen and (max-width: 600px){
+    /*A tela vai ficar azul ATÉ 600px, a partir disso, é outra cor*/
+    body {
+        background-color: darkblue;
+    }
+}
+
+/*Disp. um pouco maiores, mas ainda pequenos - 600px para cima*/
+@media only screen and (min-width: 600px){
+    /*A tela vai ficar verde A PARTIR DE 600px*/
+    body {
+        background-color: darkgreen;
+    }
+}
+
+/*Disp. médios (tablets deitados) - 768px para cima*/
+@media only screen and (min-width: 768px){
+    /*A tela vai ficar alaranjada A PARTIR DE 768px*/
+    body {
+        background-color: darkorange;
+    }
+}
+
+/*Disp. largos (laptops,desktops) - 992px para cima*/
+@media only screen and (min-width: 992px){
+    /*A tela vai ficar vermelha A PARTIR DE 992px*/
+    body {
+        background-color: darkred;
+    }
+
+    h2{
+        font-size: 22px;
+    }
+
+    .exemplo {
+        display: none;
+    }
+}
+
+/*Telas maiores - 1200px para cima*/
+@media only screen and (min-width: 1200px){
+    /*A tela vai ficar violeta A PARTIR DE 1200px*/
+    body {
+        background-color: violet;
+    }
+}
