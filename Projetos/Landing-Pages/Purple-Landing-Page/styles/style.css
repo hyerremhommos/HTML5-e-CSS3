@@ -33,7 +33,7 @@ header {
 }
 
 h1 {
-    font-weight: normal;
+    font-weight: 200;
 }
 
 li {
@@ -76,6 +76,7 @@ article img {
 h2 {
     font-size: 56px;
     line-height: 10px;
+    /*font-family: poppinsmedium*/
 }
 
 span {
@@ -85,8 +86,9 @@ span {
 p {
     font-weight: 300;
     line-height: 20px;
-    max-width: 85.5%;/*Em relação à aside*/
+    max-width: 520px;/*ou 560px*/
     text-align: justify;
+    /*font-family: poppinslight*/
 }
 
 form {
