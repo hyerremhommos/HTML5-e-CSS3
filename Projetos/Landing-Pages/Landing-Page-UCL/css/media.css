@@ -6,7 +6,6 @@
 
     main {
         flex-direction: column;
-        margin-top: 10px;
     }
 
     ul {
@@ -31,7 +30,19 @@
         align-self: center;
     }
 
-    .imagem-grande {
+    article img {
         display: none;
+    }
+}
+
+@media screen and (max-width: 1200px){
+
+    h1 {
+        font-size: 38px;
+    }
+
+    article img {
+        width: 95%;
+        height: 95%;
     }
 }
