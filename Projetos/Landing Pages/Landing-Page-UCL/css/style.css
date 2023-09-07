@@ -3,19 +3,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
 
 :root {
+    --cor-fundo: #071246;
+    --cor-contraste: #fc15fd;
     --fonte-padrao: 'Poppins', sans-serif;
-    --cor-violeta: rgb(132,14,201);
-    --cor-dark: rgba(34,34,34);
 }
 
-/*Estilizando a viewport*/
 body {
-    background-color: var(--cor-dark);
+    background-color: var(--cor-fundo);
     color: white;
     font-family: var(--fonte-padrao);
     padding: 15px;
-    max-width: 1200px;
     margin: 0 auto;
+    max-width: 1200px;
 }
 
 header {
@@ -26,14 +25,9 @@ header {
     align-items: center;
 }
 
-/*Div com nome de "logo"*/
-#logo {
-    flex-direction: column;
-    line-height: 10px;
-}
-
-h1 {
-    font-weight: normal;
+.logo img {
+    width: 160px;
+    height: 160px;
 }
 
 li {
@@ -47,45 +41,46 @@ a {
 }
 
 a:hover {
-    color: var(--cor-violeta);
+    color: var(--cor-contraste);
     transition-duration: 0.3s;
 }
 
-#link-especial {
-    border: 2px solid var(--cor-violeta);
+.botao-especial {
+    border: 2px solid var(--cor-contraste);
     padding: 10px;
     border-radius: 15px;
 }
 
-#link-especial:hover {
-    background-color: var(--cor-violeta);
+.botao-especial:hover {
+    background-color: var(--cor-contraste);
     color: white;
 }
 
 main {
-    margin-top: 50px;
+    margin-top: 40px;
     /*Flexbox*/
     display: flex;
     flex-direction: row;
 }
 
-article img {
-    width: 580px;
+.imagem-grande {
+    width: 100%;
+    height: 100%;
 }
 
-h2 {
-    font-size: 56px;
+h1 {
     line-height: 10px;
+    font-size: 50px;
 }
 
 span {
-    color: var(--cor-violeta);
+    color: var(--cor-contraste);
 }
 
 p {
-    font-weight: 300;
     line-height: 20px;
-    max-width: 85.5%;/*Em relação à aside*/
+    font-weight: 300;
+    max-width: 90%;
     text-align: justify;
 }
 
@@ -93,26 +88,26 @@ form {
     /*Flexbox*/
     display: flex;
     flex-direction: column;
-    width: 70%;/*Em relação à aside*/
+    width: 70%;
 }
 
 input {
     margin-top: 20px;
     height: 20px;
-    font-size: 15px;
-    padding: 15px;
-    border: none;
     border-radius: 20px;
+    border: none;
+    padding: 15px;
+    font-size: 15px;
 }
 
-#enviar {
-    background-color: var(--cor-violeta);
+.botao-enviar {
+    background-color: var(--cor-contraste);
     color: white;
+    width: 50%;
     height: 50px;
-    width: 50%;/*Em relação à form*/
-    font-weight: bold;
+    font-weight: bold; 
 }
 
-#enviar:hover {
+.botao-enviar:hover {
     cursor: pointer;
 }
