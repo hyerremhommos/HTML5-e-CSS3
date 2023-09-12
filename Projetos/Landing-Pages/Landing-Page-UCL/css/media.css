@@ -11,11 +11,11 @@
         margin-top: 15px;
     }
 
-    ul, h1, p {
+    ul, p {
         text-align: center;
     }
 
-    h2 {
+    h1 {
         font-size: 38px;
         text-align: center;
     }
@@ -35,7 +35,7 @@
 }
 
 @media (min-width: 100px) and (max-width: 450px){
-    h2 {
+    h1 {
         line-height: 28px;
         font-size: 28px;
     }
@@ -48,7 +48,7 @@
 
 @media screen and (max-width: 1200px){
 
-    h2 {
+    h1 {
         font-size: 38px;
     }
 }
