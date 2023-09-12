@@ -1,4 +1,6 @@
-@media screen and (max-width: 860px){
+@charset "UTF-8";
+
+@media screen and (max-width: 760px){
 
     header {
         flex-direction: column;
@@ -6,25 +8,21 @@
 
     main {
         flex-direction: column;
+        margin-top: 15px;
     }
 
-    ul {
+    ul, h1, p {
         text-align: center;
     }
 
-    h1 {
-        text-align: center;
+    h2 {
         font-size: 38px;
-    }
-
-    p {
         text-align: center;
-        font-size: 16px;
     }
 
     form {
         margin: 0 auto;
-        width: 100%;
+        width: 100%;/*Na versão web está 70%*/
     }
 
     input {
@@ -33,5 +31,24 @@
 
     article img {
         display: none;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 450px){
+    h2 {
+        line-height: 28px;
+        font-size: 28px;
+    }
+
+    main {
+        margin-top: 10px;
+    }
+}
+
+
+@media screen and (max-width: 1200px){
+
+    h2 {
+        font-size: 38px;
     }
 }
