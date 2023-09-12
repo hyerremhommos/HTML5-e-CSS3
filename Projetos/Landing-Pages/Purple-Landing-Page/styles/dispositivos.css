@@ -8,6 +8,7 @@
 
     main {
         flex-direction: column;
+        margin-top: 15px;
     }
 
     ul, h1, p {
@@ -30,6 +31,39 @@
 
     article img {
         display: none;
+    }
+}
+
+@media (width: 375px){
+    h2 {
+        line-height: 28px;
+        font-size: 28px;
+    }
+
+    main {
+        margin-top: 10px;
+    }
+}
+
+@media (width: 360px){
+    h2 {
+        line-height: 28px;
+        font-size: 28px;
+    }
+
+    main {
+        margin-top: 10px;
+    }
+}
+
+@media (width: 393px){
+    h2 {
+        line-height: 28px;
+        font-size: 28px;
+    }
+
+    main {
+        margin-top: 10px;
     }
 }
 
