@@ -34,7 +34,7 @@
     }
 }
 
-@media (width: 375px){
+@media (min-width: 100px) and (max-width: 450px){
     h2 {
         line-height: 28px;
         font-size: 28px;
@@ -45,27 +45,6 @@
     }
 }
 
-@media (width: 360px){
-    h2 {
-        line-height: 28px;
-        font-size: 28px;
-    }
-
-    main {
-        margin-top: 10px;
-    }
-}
-
-@media (width: 393px){
-    h2 {
-        line-height: 28px;
-        font-size: 28px;
-    }
-
-    main {
-        margin-top: 10px;
-    }
-}
 
 @media screen and (max-width: 1200px){
 
