@@ -1,54 +1,55 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 760px) {
+  header {
+    flex-direction: column;
+  }
 
-    header {
-        flex-direction: column;
-    }
+  main {
+    flex-direction: column;
+    margin-top: 15px;
+  }
 
-    main {
-        flex-direction: column;
-        margin-top: 15px;
-    }
+  ul,
+  h1,
+  p {
+    text-align: center;
+  }
 
-    ul, h1, p {
-        text-align: center;
-    }
+  h1 {
+    font-size: 38px;
+    text-align: center;
+  }
 
-    h1 {
-        font-size: 38px;
-        text-align: center;
-    }
+  form {
+    margin: 0 auto;
+    width: 100%; /*Na versão web está 70%*/
+  }
 
-    form {
-        margin: 0 auto;
-        width: 100%;/*Na versão web está 70%*/
-    }
+  input {
+    align-self: center;
+  }
 
-    input {
-        align-self: center;
-    }
+  article img {
+    display: none;
+  }
 
-    article img {
-        display: none;
-    }
 }
 
-@media (min-width: 100px) and (max-width: 450px){
-    h1 {
-        line-height: 28px;
-        font-size: 28px;
-    }
+@media (min-width: 100px) and (max-width: 450px) {
+  h1 {
+    line-height: 28px;
+    font-size: 28px;
+  }
 
-    main {
-        margin-top: 10px;
-    }
+  main {
+    margin-top: 10px;
+  }
+
 }
 
-
-@media screen and (max-width: 1200px){
-
-    h1 {
-        font-size: 38px;
-    }
+@media screen and (max-width: 1200px) {
+  h1 {
+    font-size: 38px;
+  }
 }

@@ -10,6 +10,7 @@
 body {
     background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     font-family: var(--fonte-especial);
     padding: 15px;
@@ -69,7 +70,7 @@ main {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 48px;
     line-height: 10px;
 }
 
@@ -78,8 +79,8 @@ span {
 }
 
 p {
-    font-size: 18px;/**/
-    font-weight: 300;
+    font-size: 17px;
+    font-weight: lighter;
     line-height: 20px;
     max-width: 500px;
     text-align: justify;
