@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+h1 {
+  color: red;
+}
+
+h2 {
+  color: red;
+}
+
+/*Quero que meu texto fique verde acessando por um IphoneXR*/
+/*IphoneXR: W 414px e H 896px*/
+@media screen and (max-width: 450px) {
+  h1,
+  h2 {
+    color: green;
+  }
+}
+
+@media (width: 375px) {
+  h1 {
+    color: purple;
+  }
+}
+
+/*Tablets*/
+/*Aplicando em um intervalo de larguras*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  h1,
+  h2 {
+    color: yellow;
+  }
+}
+
+/*Resultado: Verde até 450px, entre 450px e 768px vermelho, entre 768px e 1024px amarelo, acima de 1024px vermelho*/
+
+/*Orientação do dispositivo - horizontal*/
+/*Quando eu deito o celular, o texto fica azul*/
+@media (orientation: landscape) {
+  h1,
+  h2 {
+    color: blue;
+  }
+}

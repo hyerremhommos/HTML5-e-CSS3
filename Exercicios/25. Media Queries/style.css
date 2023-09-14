@@ -5,7 +5,6 @@ h2 {
     font-size: 14px;
 }
 
-
 /*Smartphones - 600px para baixo*/
 @media only screen and (max-width: 600px){
     /*A tela vai ficar azul ATÉ 600px, a partir disso, é outra cor*/
